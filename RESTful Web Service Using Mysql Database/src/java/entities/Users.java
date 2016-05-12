@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tecnt;
+package entities;
 
 import java.io.Serializable;
 import javax.persistence.Basic;
@@ -123,7 +123,7 @@ public class Users implements Serializable {
 
     @Override
     public String toString() {
-        return "tecnt.Users[ id=" + id + " ]";
+        return "entities.Users[ id=" + id + " ]";
     }
     
 }

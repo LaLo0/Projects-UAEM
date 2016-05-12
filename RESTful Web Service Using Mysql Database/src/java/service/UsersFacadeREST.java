@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tecnt;
+package service;
 
+import entities.Users;
 import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
@@ -23,7 +24,7 @@ import javax.ws.rs.Produces;
  * @author alexis
  */
 @Stateless
-@Path("tecnt.users")
+@Path("entities.users")
 public class UsersFacadeREST extends AbstractFacade<Users> {
     @PersistenceContext(unitName = "RESTful_Web_Service_Using_Mysql_DatabasePU")
     private EntityManager em;
