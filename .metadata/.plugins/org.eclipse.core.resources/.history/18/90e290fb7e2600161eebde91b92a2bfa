@@ -1,0 +1,5 @@
+package com.alexisayala.jersey.first;
+
+public class Hello {
+
+}

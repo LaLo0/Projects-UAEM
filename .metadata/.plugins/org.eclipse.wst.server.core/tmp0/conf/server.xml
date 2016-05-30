@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="/Users/alexis/Root/Projects-UAEM/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/Users/alexis/Root/Projects-UAEM/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/com.alexisayala.web.filecounter" path="/com.alexisayala.web.filecounter" reloadable="true" source="org.eclipse.jst.jee.server:com.alexisayala.web.filecounter"/></Host>
+      <Context docBase="/Users/alexis/Root/Projects-UAEM/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/Users/alexis/Root/Projects-UAEM/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/com.alexisayala.web.filecounter" path="/com.alexisayala.web.filecounter" reloadable="true" source="org.eclipse.jst.jee.server:com.alexisayala.web.filecounter"/><Context docBase="/Users/alexis/Root/Projects-UAEM/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/com.alexisayala.jersey.first" path="/com.alexisayala.jersey.first" reloadable="true" source="org.eclipse.jst.jee.server:com.alexisayala.jersey.first"/></Host>
     </Engine>
   </Service>
 </Server>
