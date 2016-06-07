@@ -52,7 +52,7 @@ public class MainActivity extends Activity implements OnClickListener {
         protected String doInBackground(Void... params) {
             HttpClient httpClient = new DefaultHttpClient();
             HttpContext localContext = new BasicHttpContext();
-            HttpGet httpGet = new HttpGet("http://pokeapi.co/api/v2/pokemon/1/");
+            HttpGet httpGet = new HttpGet("http://hmkcode.appspot.com/rest/controller/get.json");
             String text = null;
             try {
                 HttpResponse response = httpClient.execute(httpGet, localContext);
